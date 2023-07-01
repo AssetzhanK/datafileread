@@ -6,6 +6,7 @@ import (
 	"strconv"
 )
 
+// return floats array
 func GetFloats(fileName string) ([3]float64, error) {
 	var numbers [3]float64
 	file, err := os.Open(fileName)
